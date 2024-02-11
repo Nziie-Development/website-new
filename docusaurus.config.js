@@ -41,8 +41,8 @@ module.exports = {
       items: [
         {to: '/', label: 'Home', position: 'left'},
         {to: 'services', label: 'Services', position: 'left'},
-        {to: 'terms', label: 'Terms', position: 'right'}, 
         {to: 'blog', label: 'Blog', position: 'right'},
+        {to: 'terms', label: 'Terms', position: 'right'}, 
       ],
     },
     scripts: ['./src/scripts/discord-components.js'],
