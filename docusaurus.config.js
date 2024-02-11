@@ -10,8 +10,8 @@ module.exports = {
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   trailingSlash: false,
-  organizationName: 'Nzii3',
-  projectName: 'sentry-docs',
+  organizationName: 'Nziie-Development',
+  projectName: 'website-new',
   deploymentBranch:"main",
   themeConfig: {
     prism: {
