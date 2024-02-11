@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nziie.xyz/website-new/blog</id>
+    <title>Nziie Blog</title>
+    <updated>2024-02-11T21:38:41.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://nziie.xyz/website-new/blog"/>
+    <subtitle>Nziie Blog</subtitle>
+    <icon>https://nziie.xyz/website-new/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Test]]></title>
+        <id>https://nziie.xyz/website-new/blog/test</id>
+        <link href="https://nziie.xyz/website-new/blog/test"/>
+        <updated>2024-02-11T21:38:41.000Z</updated>
+        <summary type="html"><![CDATA[testing]]></summary>
+        <content type="html"><![CDATA[<p>testing</p>]]></content>
+    </entry>
+</feed>

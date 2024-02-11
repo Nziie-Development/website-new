@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Nziie Blog",
+    "home_page_url": "https://nziie.xyz/website-new/blog",
+    "description": "Nziie Blog",
+    "items": [
+        {
+            "id": "https://nziie.xyz/website-new/blog/test",
+            "content_html": "<p>testing</p>",
+            "url": "https://nziie.xyz/website-new/blog/test",
+            "title": "Test",
+            "summary": "testing",
+            "date_modified": "2024-02-11T21:38:41.000Z",
+            "tags": []
+        }
+    ]
+}
