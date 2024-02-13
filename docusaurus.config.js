@@ -5,7 +5,7 @@ module.exports = {
   title: 'Nziie',
   tagline: 'Imagine a custom discord bot made to your liking at a cheap price...',
   url: 'https://nziie.xyz',
-  baseUrl: '/website-new/',
+  baseUrl: '/',
   favicon: 'img/logo.png',
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
