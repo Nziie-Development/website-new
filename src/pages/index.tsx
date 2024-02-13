@@ -97,7 +97,7 @@ function Home() {
                   className={classnames(
                     'button button--outline button--primary button--lg'
                   )}
-                  to={useBaseUrl('/intro')}>
+                  to={useBaseUrl('/introduction')}>
                   Learn More
                 </Link>
               </div>

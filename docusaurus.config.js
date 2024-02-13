@@ -45,7 +45,12 @@ module.exports = {
         {to: 'terms', label: 'Terms', position: 'right'}, 
       ],
     },
-    scripts: ['./src/scripts/discord-components.js'],
+    scripts: [
+      {
+      src: './src/scripts/discord-components.js',
+      async: true,
+    },
+    ],
     footer: {
       style: 'dark',
       links: [

@@ -12,3 +12,5 @@ window.$discordMessage = {
     }
   }
 };
+
+console.log(`testing message`);
