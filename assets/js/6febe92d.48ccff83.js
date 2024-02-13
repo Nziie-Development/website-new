@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknziie_xyz=self.webpackChunknziie_xyz||[]).push([[7780],{7312:e=>{e.exports=JSON.parse('{"title":"Showcase","slug":"/category/showcase","permalink":"/category/showcase","navigation":{"previous":{"title":"\ud83d\udc51 Team","permalink":"/team"},"next":{"title":"Modmail v3","permalink":"/showcase/modmail-v3"}}}')}}]);

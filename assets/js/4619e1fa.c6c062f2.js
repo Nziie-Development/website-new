@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknziie_xyz=self.webpackChunknziie_xyz||[]).push([[7636],{6440:e=>{e.exports=JSON.parse('[{"label":"MEE6 Controversy","permalink":"/website-new/blog/tags/mee-6-controversy","count":1},{"label":"Guides","permalink":"/website-new/blog/tags/guides","count":1}]')}}]);
