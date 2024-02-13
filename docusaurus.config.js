@@ -48,7 +48,7 @@ module.exports = {
     scripts: [
       {
       src: './src/scripts/discord-components.js',
-      async: true,
+      defer: true,
     },
     ],
     footer: {
