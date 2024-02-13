@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknziie_xyz=self.webpackChunknziie_xyz||[]).push([[8004],{1856:e=>{e.exports=JSON.parse('{"title":"Pycord Examples","slug":"/category/pycord-examples","permalink":"/category/pycord-examples","navigation":{"previous":{"title":"Forms","permalink":"/showcase/forms"},"next":{"title":"Discord UI","permalink":"/category/discord-ui"}}}')}}]);
