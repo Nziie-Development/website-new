@@ -2,6 +2,10 @@ const path = require('path');
 const {components} = require('./src/plugins/components');
 
 module.exports = {
+  scripts: [{
+    src: '/discord-components.config.js',
+    async: false
+  }],
   title: 'Nziie',
   tagline: 'Imagine a custom discord bot made to your liking at a cheap price...',
   url: 'https://nziie.xyz',
@@ -45,12 +49,6 @@ module.exports = {
         {to: 'terms', label: 'Terms', position: 'right'}, 
       ],
     },
-    scripts: [
-      {
-      src: './src/scripts/discord-components.js',
-      defer: true,
-    },
-    ],
     footer: {
       style: 'dark',
       links: [

@@ -20,13 +20,13 @@ Now, you can customize the prefix of your bot on the fly and have it update imme
 - `!config set prefix ?` (changes to <strong>?</strong>)
 
 <DiscordMessages>
-	<DiscordMessage>
+	<DiscordMessage profile="user">
 		!config set prefix ?
 	</DiscordMessage>
-  <DiscordMessage author="Modmail" bot>
+  <DiscordMessage profile="modmail">
     <DiscordEmbed slot="embeds" color="#2ecc71" embedTitle="Success">
       <DiscordEmbedDescription slot="description">
-        Set <span className="cb">prefix</span> to <span className="cb">?</span>
+        Set <span className="cb">prefix</span> to <code>?</code>
       </DiscordEmbedDescription>
       </DiscordEmbed>
   </DiscordMessage>
@@ -36,7 +36,8 @@ Now, you can customize the prefix of your bot on the fly and have it update imme
 The system is highly customizable, giving you the power to customize it to your liking or needs. 
 
 <details className="customdetails" open>
-<summary>Configurations list</summary>
+<summary>Configurations List</summary>
+
 `modmail_category_id` - The category where threads are created
 <br/>
 `modmail_guild_id` - The guild ID of where modmail is based in.
@@ -108,30 +109,30 @@ The system is highly customizable, giving you the power to customize it to your 
 </details>
 
 <DiscordMessages>
-	<DiscordMessage>
+	<DiscordMessage profile="user">
 		 !config set thread_creation_response Thanks for contacting our staff team, please wait for a response.
 	</DiscordMessage>
-  <DiscordMessage author="Modmail" bot>
+  <DiscordMessage profile="modmail">
     <DiscordEmbed slot="embeds" color="#2ecc71" embedTitle="Success">
       <DiscordEmbedDescription slot="description">
         Set <span className="cb">thread_creation_response</span> to <span className="cb">Thanks for contacting our staff team, please wait for a response.</span>
       </DiscordEmbedDescription>
       </DiscordEmbed>
   </DiscordMessage>
-	<DiscordMessage>
+	<DiscordMessage profile="user">
 		 !config set thread_close_response &#123;closer.mention&#125; has closed this thread.
 	</DiscordMessage>
-  <DiscordMessage author="Modmail" bot>
+  <DiscordMessage profile="modmail">
     <DiscordEmbed slot="embeds" color="#2ecc71" embedTitle="Success">
       <DiscordEmbedDescription slot="description">
         Set <span className="cb">thread_creation_response</span> to <span className="cb">&#123;closer.mention&#125; has closed this thread.</span>
       </DiscordEmbedDescription>
       </DiscordEmbed>
   </DiscordMessage>
-	<DiscordMessage>
+	<DiscordMessage profile="user">
 		 !config set success_emoji ☑
 	</DiscordMessage>
-  <DiscordMessage author="Modmail" bot>
+  <DiscordMessage profile="modmail">
     <DiscordEmbed slot="embeds" color="#2ecc71" embedTitle="Success">
       <DiscordEmbedDescription slot="description">
         Set <span className="cb">success_emoji</span> to ☑
@@ -146,37 +147,45 @@ The thread menu system allows users who are creating a thread to choose from pre
 ### Adding options
 
 <DiscordMessages>
-  <DiscordMessage profile="nziie" roleColor="none">
+  <DiscordMessage profile="user">
   !menu options add
   </DiscordMessage>
-  <DiscordMessage profile="modmail" avatar="blue">
-    <DiscordEmbed borderColor="#5865f2">
-      Please send what you want the dropdown option label to be.
-    </DiscordEmbed>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed slot="embeds" color="#5865f2">
+      <DiscordEmbedDescription slot="description">
+        Please send what you want the dropdown option label to be.
+      </DiscordEmbedDescription>
+      </DiscordEmbed>
   </DiscordMessage>
-  <DiscordMessage profile="nziie" roleColor="none">
+  <DiscordMessage profile="user">
   Report User
   </DiscordMessage>
-  <DiscordMessage profile="modmail" avatar="blue">
-    <DiscordEmbed borderColor="#5865f2">
-      Please send the description you would like to be displayed in the option. Use 'none' for no description.
-    </DiscordEmbed>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed slot="embeds" color="#5865f2">
+      <DiscordEmbedDescription slot="description">
+        Please send the description you would like to be displayed in the option. Use 'none' for no description.
+      </DiscordEmbedDescription>
+      </DiscordEmbed>
   </DiscordMessage>
-  <DiscordMessage profile="nziie" roleColor="none">
+  <DiscordMessage profile="user">
   Report a user (not staff member) for breaking server rules.
   </DiscordMessage>
-  <DiscordMessage profile="modmail" avatar="blue">
-    <DiscordEmbed borderColor="#5865f2">
-      Please send the category ID you would like the thread to be sent to. Use 'none' for the thread not to be moved.
-    </DiscordEmbed>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed slot="embeds" color="#5865f2">
+      <DiscordEmbedDescription slot="description">
+        Please send the category ID you would like the thread to be sent to. Use 'none' for the thread not to be moved.
+      </DiscordEmbedDescription>
+      </DiscordEmbed>
   </DiscordMessage>
-  <DiscordMessage profile="nziie" roleColor="none">
+  <DiscordMessage profile="user">
   1089262352530161684
   </DiscordMessage>
-  <DiscordMessage profile="modmail" avatar="blue">
-    <DiscordEmbed borderColor="#2ecc71" embedTitle="Success">
-      Successfully created menu option!<br/><br/><blockquote><strong>Label:</strong> Report User<br/><strong>Description:</strong> Report a user (not staff member) for breaking server rules.<br/><strong>Move to:</strong> 1089262352530161684</blockquote>
-    </DiscordEmbed>
+  <DiscordMessage profile="modmail">
+    <DiscordEmbed slot="embeds" color="#2ecc71" embedTitle="Success">
+      <DiscordEmbedDescription slot="description">
+        Successfully created menu option!<br/><br/><blockquote><strong>Label:</strong> Report User<br/><strong>Description:</strong> Report a user (not staff member) for breaking server rules.<br/><strong>Move to:</strong> 1089262352530161684</blockquote>
+      </DiscordEmbedDescription>
+      </DiscordEmbed>
   </DiscordMessage>
 </DiscordMessages>
 
