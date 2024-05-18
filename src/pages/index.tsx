@@ -131,7 +131,7 @@ function Home() {
                   </ul>
                 </div>
                 <div className="card__footer">
-                  <Link to="/silver" className="button button--outline button--primary button--block">Purchase</Link>
+                  <Link to="/showcase/modmail-v3" className="button button--outline button--primary button--block">View More...</Link>
                 </div>
               </div>
             </div>
