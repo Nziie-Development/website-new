@@ -22,39 +22,6 @@ const features = [
       </>
     ),
   },
-  {
-    title: 'Custom Punishments',
-    imageUrl: 'img/fire.png',
-    description: (
-      <>
-        Through Custom Punishments, you can specify the actions Sentry should take when a member accumulates a specific set of warnings. Whether it involves muting, kicking, or banning a user based on warning levels, Sentry provides extensive customization choices tailored to your unique requirements.
-        <br/>
-        <br/>
-      </>
-    ),
-  },
-  {
-    title: 'Applications',
-    imageUrl: 'img/clipboard.png',
-    description: (
-      <>
-        Sentry's application introduces unique and unprecedented functionalities for designing, overseeing, and gauging user interactions within application systems. It offers various question formats, including multiple-choice options, yes/no responses, long text, short text, and more. Sentry empowers you with complete authority over application creation, allowing for extensive customization as per your needs.
-        <br/>
-        <br/>
-      </>
-    ),
-  },
-  {
-    title: 'Permits (Custom Permissions)',
-    imageUrl: 'img/key.png',
-    description: (
-      <>
-        Utilizing Sentry's robust permissions system, you can guarantee that the appropriate members in your server are granted access to the commands you deem suitable for their use. Permits provide bot-specific permissions to roles of your choice.
-        <br/>
-        <br/>
-      </>
-    ),
-  },
 ];
 
 interface FeatureArgs {
@@ -120,7 +87,7 @@ function Home() {
                 <FontAwesomeIcon icon="fa-solid fa-envelope" style={{'fontSize': '3em'}} beat />
                 </div>
                 <div className="card__header">
-                <h2>Modmail v3 (2.50€/month)</h2>
+                <h2>Modmail v3 (2.99€/month)</h2>
                 </div>
                 <div className="card__body">
                   <ul style={{'listStylePosition': 'inside'}}>
@@ -128,6 +95,30 @@ function Home() {
                   <li>Customizable bot name</li>
                   <li>Customizable bot avatar</li>
                   <li>Customizable bot status</li>
+                  </ul>
+                </div>
+                <div className="card__footer">
+                  <Link to="/showcase/modmail-v3" className="button button--outline button--primary button--block">View More...</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row margin-vert--lg">
+          <div className="col text--center padding-vert--md">
+              <div className="card">
+                <div className="card__header">
+                <FontAwesomeIcon icon="fa-solid fa-envelope" style={{'fontSize': '3em'}} beat />
+                </div>
+                <div className="card__header">
+                <h2>Custom Bot (3.99-9.99€/month)</h2>
+                </div>
+                <div className="card__body">
+                  <ul style={{'listStylePosition': 'inside'}}>
+                  <li>Customizable bot name</li>
+                  <li>Customizable bot avatar</li>
+                  <li>Customizable bot status</li>
+                  <li>Customizable features such as: Moderation, Giveaways</li>
+                  Polls, Suggestions, Tags, Templates, and more custom features.
                   </ul>
                 </div>
                 <div className="card__footer">
