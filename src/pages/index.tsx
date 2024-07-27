@@ -122,7 +122,7 @@ function Home() {
                   </ul>
                 </div>
                 <div className="card__footer">
-                  <Link to="/showcase/modmail-v3" className="button button--outline button--primary button--block">View More...</Link>
+                  <Link to="https://client.nziie.xyz/index.php?rp=/store/vnziie" className="button button--outline button--primary button--block">View Products...</Link>
                 </div>
               </div>
             </div>
