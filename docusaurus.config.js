@@ -8,7 +8,7 @@ module.exports = {
   }],
   title: 'Nziie',
   tagline: 'Imagine a custom discord bot made to your liking at a cheap price...',
-  url: 'https://nziie.xyz',
+  url: 'https://nziie-development.github.io/website-new/',
   baseUrl: '/website-new/',
   favicon: 'img/logo.png',
   onBrokenLinks: "warn",
