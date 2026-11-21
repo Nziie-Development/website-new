@@ -1,6 +1,8 @@
 const path = require('path');
 const {components} = require('./src/plugins/components');
 
+const isVercel = process.env.VERCEL === '1';
+
 module.exports = {
   scripts: [{
     src: '/discord-components.config.js',
@@ -8,8 +10,8 @@ module.exports = {
   }],
   title: 'Nziie',
   tagline: 'Imagine a custom discord bot made to your liking at a cheap price...',
-  url: 'https://nziie-development.github.io/website-new/',
-  baseUrl: '/website-new/',
+  url: isVercel ? 'https://nziie.xyz' : 'https://nziie-development.github.io',
+  baseUrl: isVercel ? '/' : '/website-new/',
   favicon: 'img/logo.png',
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
