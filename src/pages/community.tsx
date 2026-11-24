@@ -17,7 +17,7 @@ function Community() {
           <h1>Support</h1>
           <div className="hero--subtitle">
           <p>
-                Sentry offers a community and support staff ready to help with any questions, bugs, or feature requests. Give our <a href="https://r.nziie.xyz/sentry-support">support server</a> a shot for assistance. For inquries that may need faster and quicker attention (such as <strong>premium</strong>), feel free to create a ticket in the <code>#premium</code> channel. Support tickets are <strong>only for premium inquries!</strong>
+                Sentry offers a community and support staff ready to help with any questions, bugs, or feature requests. Give our <a href="https://r.nziie.is-a.dev/sentry-support">support server</a> a shot for assistance. For inquries that may need faster and quicker attention (such as <strong>premium</strong>), feel free to create a ticket in the <code>#premium</code> channel. Support tickets are <strong>only for premium inquries!</strong>
                 </p>
           </div>
           <img className={styles.headerImg} src="img/logo-yellow.png" />
@@ -35,7 +35,7 @@ function Community() {
                   <p>Join the official Sentry discord server</p>
                 </div>
                 <div className="card__footer">
-                  <Link to="https://r.nziie.xyz/sentry-support" className="button button--outline button--primary button--block">Join</Link>
+                  <Link to="https://r.nziie.is-a.dev/sentry-support" className="button button--outline button--primary button--block">Join</Link>
                 </div>
               </div>
             </div>

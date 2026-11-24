@@ -27,7 +27,7 @@ export default function Root({children}) {
         },
         nziie: {
           author: 'vNziie--',
-          avatar: 'https:/r.nziie.xyz/avatar',
+          avatar: 'https:/r.nziie.is-a.dev/avatar',
         }
       }
     };

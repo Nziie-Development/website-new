@@ -8,7 +8,7 @@ window.$discordMessage = {
     },
     nziie: {
       author: 'vNziie--',
-      avatar: 'https:/r.nziie.xyz/avatar',
+      avatar: 'https:/r.nziie.is-a.dev/avatar',
     }
   }
 };

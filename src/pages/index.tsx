@@ -78,7 +78,7 @@ function Home() {
       <main>
         <hr style={{'backgroundColor': '#962a7a'}}/>
         <div className="container">
-        <h1 className='center hero__title'>Services</h1>
+        {/* <h1 className='center hero__title'>Services</h1>
         <p className="center">These are the services I am currently offering. These may change over time as products come and go.</p>
         <div className="row margin-vert--lg">
           <div className="col text--center padding-vert--md">
@@ -102,8 +102,8 @@ function Home() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row margin-vert--lg">
+          </div> */}
+          {/* <div className="row margin-vert--lg">
           <div className="col text--center padding-vert--md">
               <div className="card">
                 <div className="card__header">
@@ -122,11 +122,11 @@ function Home() {
                   </ul>
                 </div>
                 <div className="card__footer">
-                  <Link to="https://client.nziie.xyz/index.php?rp=/store/vnziie" className="button button--outline button--primary button--block">View Products...</Link>
+                  <Link to="https://client.nziie.is-a.dev/index.php?rp=/store/vnziie" className="button button--outline button--primary button--block">View Products...</Link>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
     </DefaultLayout>
