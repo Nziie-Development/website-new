@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknziie_is_a_dev=self.webpackChunknziie_is_a_dev||[]).push([[5512],{4352:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"MEE6 Controversy & Explanation","permalink":"/website-new/blog/mee6-controversy","unlisted":false},{"title":"Python Classes & Usages","permalink":"/website-new/blog/python-classes","unlisted":false}]}')}}]);

@@ -2,7 +2,7 @@ window.$discordMessage = {
 	profiles: {
 		nziie: {
 			author: 'vNziie--',
-			avatar: 'https://r.nziie.xyz/logo',
+			avatar: 'https://r.nziie.is-a.dev/logo',
 		},
     user: {
 			author: 'User',
@@ -10,7 +10,7 @@ window.$discordMessage = {
 		},
 		sentry: {
 			author: 'Sentry',
-			avatar: 'https://r.nziie.xyz/sentry-logo',
+			avatar: 'https://r.nziie.is-a.dev/sentry-logo',
 			bot: true,
 			verified: true
 		},
