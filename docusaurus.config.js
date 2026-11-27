@@ -10,7 +10,7 @@ module.exports = {
   }],
   title: 'Nziie',
   tagline: 'Imagine a custom discord bot made to your liking at a cheap price...',
-  url: isVercel ? 'https://nziie.is-a.dev' : 'https://nziie-development.github.io',
+  url: isVercel ? 'https://nziie.xyz' : 'https://nziie-development.github.io',
   baseUrl: isVercel ? '/' : '/website-new/',
   favicon: 'img/logo.png',
   onBrokenLinks: "warn",
@@ -46,7 +46,7 @@ module.exports = {
       },
       items: [
         {to: '/', label: 'Home', position: 'left'},
-        // {to: 'services', label: 'Services', position: 'left'},
+        {to: 'services', label: 'Services', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'right'},
         {to: 'terms', label: 'Terms', position: 'right'}, 
       ],
@@ -61,10 +61,10 @@ module.exports = {
               label: 'Discord',
               to: 'support',
             },
-            // {
-            //   label: 'Services',
-            //   to: 'services',
-            // },
+            {
+              label: 'Services',
+              to: 'services',
+            },
           ],
         },
         {

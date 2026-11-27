@@ -21,4 +21,4 @@ AnonDev's Discord server: [Pinglik Support Server](https://pinglik.eu/support)
 ## PartnerPal
 I own a public verified bot that's in over 6.6k servers and is designed to help servers seamlessly partner with each other.
 
-**[Check it out!](https://partnerpal.nziie.is-a.dev/)**
+**[Check it out!](https://partnerpal.nziie.xyz/)**

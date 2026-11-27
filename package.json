@@ -1,5 +1,5 @@
 {
-  "name": "nziie.is-a.dev",
+  "name": "nziie.xyz",
   "version": "1.0.0",
   "private": true,
   "engines": {
@@ -9,7 +9,7 @@
     "prestart": "",
     "start": "docusaurus start",
     "prebuild": "",
-    "build": "docusaurus build && echo 'nziie.is-a.dev' > build/CNAME",
+    "build": "docusaurus build && echo 'nziie.xyz' > build/CNAME",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy"
   },

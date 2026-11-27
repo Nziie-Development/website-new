@@ -11,9 +11,9 @@ import { DiscordTime, DiscordBold, DiscordItalic, DiscordUnderlined, DiscordInli
 ## 🎉 v3.0.0 {#why-v3}
 Modmail v3 includes a robust configuration system to configure 99% of the bot's responses, leaving the sky as the limit of possibilites of how your bot can be customized to your liking, theme, or needs. v3 showcases **Discord's newest and greatest UI** while providing you a crisp low-response time. Modmail v3 is the only bot you'll ever need for user support!
 
-<!-- :::success
-Purchase Modmail v3 at <strong><a href="https://r.nziie.is-a.dev/purchase-modmail-v3" className="discord-link">r.nziie.is-a.dev/purchase-modmail-v3</a></strong> for as cheap as <span className="timestamp">2.99€/month</span>!
-::: -->
+:::success
+Purchase Modmail v3 at <strong><a href="https://r.nziie.xyz/purchase-modmail-v3" className="discord-link">r.nziie.xyz/purchase-modmail-v3</a></strong> for as cheap as <span className="timestamp">2.99€/month</span>!
+:::
 
 ## Customizable Prefix
 Now, you can customize the prefix of your bot on the fly and have it update immediately. 
@@ -208,15 +208,15 @@ v3 uses permission levels to decide which user can use what command.
 
 
 ## Conclusion
-<!-- Improvements are being made to v3, so if you have a v1 or v2 modmail bot, you will need to [pay $2 USD](https://redirect.nziie.is-a.dev/donate) for your bot to be migrated to v3. This includes me manually transferring any snippets you have, or other configurations you want saved in v3; which is a pain. -->
+Improvements are being made to v3, so if you have a v1 or v2 modmail bot, you will need to [pay $2 USD](https://redirect.nziie.is-a.dev/donate) for your bot to be migrated to v3. This includes me manually transferring any snippets you have, or other configurations you want saved in v3; which is a pain.
 
-<!-- :::success
-Purchase Modmail v3 at <strong><a href="https://r.nziie.is-a.dev/purchase-modmail-v3" className="discord-link">r.nziie.is-a.dev/purchase-modmail-v3</a></strong> for as cheap as <span className="timestamp">2.25€/month</span>!
+:::success
+Purchase Modmail v3 at <strong><a href="https://r.nziie.xyz/purchase-modmail-v3" className="discord-link">r.nziie.xyz/purchase-modmail-v3</a></strong> for as cheap as <span className="timestamp">2.25€/month</span>!
 :::
 
 :::info
 You will need to join my development server in order to purchase this new system. <a href="https://discord.gg/b9GPHgJ6TK" className="discord-link">Join here</a>.
-::: -->
+:::
 
 
 

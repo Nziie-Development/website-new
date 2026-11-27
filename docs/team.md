@@ -18,9 +18,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
       <div class="avatar">
         <img
           class="avatar__photo"
-          src="https://cdn.discordapp.com/avatars/550476809280421903/9df1829351b2d0792266f8e8e4d12247.png?size=1024" />
+          src="https://cdn.discordapp.com/avatars/550476809280421903/5df5fb484f2a00793771514a0a120ff1.png?size=1024" />
         <div class="avatar__intro">
-          <div class="avatar__name">Nzii3 (nzii3)</div>
+          <div class="avatar__name">vNziie-- (nziie.dev)</div>
           <div class="avatar__subtitle">
             <span class="badge badge--grey">Head Developer</span>
           </div>
@@ -33,6 +33,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
         <a class="button button--primary" style={{'backgroundColor': '#5865f2', 'borderColor': '#5865f2'}} href="https://discordlookup.com/user/550476809280421903"><FontAwesomeIcon icon="fa-brands fa-discord" /> Discord</a>
         <a class="button button--primary" style={{'backgroundColor': '#1DA1F2', 'borderColor': '#1DA1F2'}} href="https://twitter.com/4realnziie"><FontAwesomeIcon icon="fa-brands fa-twitter" /> Twitter (X)</a>
         <a class="button button--primary" style={{'backgroundColor': '#24292e', 'borderColor': '#24292e'}} href="https://github.com/Nzii3"><FontAwesomeIcon icon="fa-brands fa-github" /> GitHub</a>
+        <a class="button button--secondary" href="https://nziie.xyz"><FontAwesomeIcon icon="fa-solid fa-globe" /> Website</a>
       </div>
     </div>
   </div>
